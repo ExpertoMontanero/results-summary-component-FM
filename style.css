@@ -1,0 +1,209 @@
+/************************GENERAL************************/
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    width: fit-content;
+    text-align: center;
+    color: hsl(243, 22%, 83%);
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+
+/************************CLASSES************************/
+
+.main-container {
+    box-shadow: 0 6px 30px -6px hsl(245, 37%, 68%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex: 1;
+
+}
+
+/*LEFT SIDE*/
+.left-container {
+    flex: 1;
+    border-radius: 25px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.circle {
+    padding: 0;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    width: 180px;
+    height: 180px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0.1));
+}
+
+.your-result {
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    font-weight: 700;
+    color: hsl(243, 22%, 83%);
+}
+
+.result {
+    position: inherit;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: min-content;
+    font-size: 60px;
+    color: white;
+}
+
+.of-result {
+    position: inherit;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*RIGHT SIDE*/
+
+/* table placing and organisation*/
+.right-container {
+    flex: 1;
+}
+
+.inside-right-container {
+    padding: 20px 30px;
+}
+
+.summary-label {
+    color: hsl(224, 31%, 19%);
+}
+
+.stats-table {
+    position: relative;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 290px;
+}
+
+.rows-icon {
+    margin-left: 10px;
+    position: inherit;
+}
+
+.left-cells {
+    width: 150px;
+    text-align: left;
+}
+
+td {
+    height: 45px;
+    padding: 5px;
+}
+
+table {
+    border-spacing: 0 15px;
+    border-collapse: separate;
+}
+
+td:first-child,
+th:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+td:last-child,
+th:last-child {
+    border-radius: 0 15px 15px 0;
+}
+
+/* rows styling*/
+.reaction-row {
+    background-color: hsl(0, 100%, 67%, 0.07);
+    color: hsl(0, 100%, 67%);
+}
+
+.memory-row {
+    background-color: hsl(39, 100%, 56%, 0.07);
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal-row {
+    background-color: hsl(166, 100%, 37%, 0.07);
+    color: hsl(166, 100%, 37%);
+}
+
+.visual-row {
+    background-color: hsl(234, 85%, 45%, 0.07);
+    color: hsl(234, 85%, 45%);
+}
+
+.reaction-points,
+.memory-points,
+.verbal-points,
+.visual-points {
+    color: hsl(224, 30%, 27%);
+    font-weight: 900;
+}
+
+.of100 {
+    color: hsl(242, 10%, 52%);
+}
+/*Continue button styling*/
+.continue-btn {
+    position: relative;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 290px;
+    height: 53px;
+    border-style: none;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 300;
+}
+
+/************************SPECIFIC IDs************************/
+
+#great-text {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    color: white;
+    font-size: 1.85rem;
+
+}
+
+#motiv-text {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50px;
+    width: 250px;
+}
+
+

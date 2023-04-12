@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Results summary component(4 positions)</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="left-container">
+      <h2 class="your-result">Your Result</h2>
+      <div class="circle">
+        <h1 class="result">76</h1>
+        <h3 class="of-result">of 100</h3>
+      </div>
+      <div class="bellow-circle">
+        <h2 id="great-text">Great</h2>
+        <h3 id="motiv-text">You scored higher than 65% of the people who have taken these tests.</h3>
+      </div>
+    </div>
+    <div class="right-container">
+      <div class="inside-right-container">
+        <h2 class="summary-label">Summary</h2>
+        <table class="stats-table">
+          <tr class="reaction-row">
+            <td class="rows-icon"> <img src="assets\images\icon-reaction.svg" alt="reaction"></td>
+            <td class="left-cells">Reaction</td>
+            <td> <span class="reaction-points">80</span><span class="of100"> / 100</span></td>
+          </tr>
+          <tr class="memory-row">
+            <td> <img src="assets\images\icon-memory.svg" alt="memory"></td>
+            <td>Memory</td>
+            <td><span class="memory-points">92</span><span class="of100"> / 100</span></td>
+          </tr>
+          <tr class="verbal-row">
+            <td> <img src="assets\images\icon-verbal.svg" alt="verbal"></td>
+            <td>Verbal</td>
+            <td><span class="verbal-points">61</span><span class="of100"> / 100</span></td>
+          </tr>
+          <tr class="visual-row">
+            <td> <img src="assets\images\icon-visual.svg" alt="visual"></td>
+            <td>Visual</td>
+            <td><span class="visual-points">72</span><span class="of100"> / 100</span></td>
+          </tr>
+        </table>
+        <input type="button" class="continue-btn" value="Continue">
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.instagram.com/t_zawadzkiii/" target="_blank">Tomasz Zawadzki</a>.
+  </div>
+</body>
+
+</html>
