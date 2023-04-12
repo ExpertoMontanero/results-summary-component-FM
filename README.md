@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/summary-component-solution-by-tomasz-zawadzki-0ZOTpGnUbI
+- Live Site URL: https://expertomontanero.github.io/results-summary-component-FM/
 
 ## My process
 
