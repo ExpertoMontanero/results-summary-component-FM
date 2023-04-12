@@ -7,8 +7,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Overview](#I've had some problems with the right section of project (this on a white background). I feel that my code here is far from beeing optimal
 at this section, I hope I ll get some tips from you. However I did this task pretty 1:1 so I'm proud of me about this aspect. )
   - [The challenge](#Results summary component)
-  - [Screenshot](#)
-  - [Links](#)
 - [My process](#:>)
   - [Built with](#HTML & CSS only)
   - [What I learned](#formating tables)
